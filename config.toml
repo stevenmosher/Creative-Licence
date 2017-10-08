@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://creative-licence.netlify.com/"
 languageCode = "en-us"
 title = "Creative Licence"
 theme = "hugo-lithium-theme"
