@@ -8,7 +8,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
-
+    
+    [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight =1
+   
 [[menu.main]]
     name = "About"
     url = "/about/"
@@ -37,7 +42,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     MathJaxVersion = "2.7.1"
 
     [params.logo]
-    url = "logo.png"
+    url = "steve.jpg"
     width = 50
     height = 50
     alt = "Logo"
